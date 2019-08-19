@@ -1,0 +1,10 @@
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\bin\Debug\GiftCarder Module Creator.exe.config
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\bin\Debug\GiftCarder Module Creator.exe
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\bin\Debug\GiftCarder Module Creator.pdb
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder Module Creator.csprojAssemblyReference.cache
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder_Module_Creator.Creation.resources
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder_Module_Creator.Properties.Resources.resources
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder Module Creator.csproj.GenerateResource.cache
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder Module Creator.csproj.CoreCompileInputs.cache
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder Module Creator.exe
+C:\Users\codys\source\repos\GiftCarder Module Creator\GiftCarder Module Creator\obj\Debug\GiftCarder Module Creator.pdb
