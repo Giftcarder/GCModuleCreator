@@ -1,0 +1,10 @@
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\Anomaly Updater.exe.config
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\Anomaly Updater.exe
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\Anomaly Updater.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\DotNetZip.xml
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\Anomaly Updater.csproj.CoreCompileInputs.cache
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\Anomaly Updater.csproj.CopyComplete
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\Anomaly Updater.exe
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\Anomaly Updater.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\Anomaly Updater.csprojAssemblyReference.cache
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\Anomaly Updater.csproj.Fody.CopyLocal.cache

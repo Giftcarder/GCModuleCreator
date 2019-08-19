@@ -1,0 +1,11 @@
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\ProperUpdater.exe.config
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\ProperUpdater.exe
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\ProperUpdater.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\ProperUpdater.csprojAssemblyReference.cache
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\ProperUpdater.csproj.CoreCompileInputs.cache
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\ProperUpdater.exe
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\ProperUpdater.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\DotNetZip.dll
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\DotNetZip.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Debug\DotNetZip.xml
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Debug\ProperUpdater.csproj.CopyComplete

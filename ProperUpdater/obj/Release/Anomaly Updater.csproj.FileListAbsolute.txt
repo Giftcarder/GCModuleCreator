@@ -1,0 +1,30 @@
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Release\Anomaly Updater.exe.config
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Release\Anomaly Updater.exe
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Release\Anomaly Updater.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\bin\Release\DotNetZip.xml
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Release\Anomaly Updater.csprojAssemblyReference.cache
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Release\Anomaly Updater.csproj.CoreCompileInputs.cache
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Release\Anomaly Updater.csproj.CopyComplete
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Release\Anomaly Updater.exe
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Release\Anomaly Updater.pdb
+C:\Users\codys\source\repos\ProperUpdater\ProperUpdater\obj\Release\Anomaly Updater.csproj.Fody.CopyLocal.cache
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\bin\Release\Anomaly Updater.exe.config
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\bin\Release\Anomaly Updater.exe
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\bin\Release\Anomaly Updater.pdb
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\bin\Release\DotNetZip.xml
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\obj\Release\Anomaly Updater.csprojAssemblyReference.cache
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\obj\Release\Anomaly Updater.csproj.CoreCompileInputs.cache
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\obj\Release\Anomaly Updater.csproj.Fody.CopyLocal.cache
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\obj\Release\Anomaly Updater.csproj.CopyComplete
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\obj\Release\Anomaly Updater.exe
+C:\Users\codys\Desktop\Anomaly Mod\ProperUpdater\obj\Release\Anomaly Updater.pdb
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\Anomaly Updater.exe.config
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\Anomaly Updater.exe
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\Anomaly Updater.pdb
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\DotNetZip.xml
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\Anomaly Updater.csprojAssemblyReference.cache
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\Anomaly Updater.csproj.CoreCompileInputs.cache
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\Anomaly Updater.csproj.Fody.CopyLocal.cache
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\Anomaly Updater.csproj.CopyComplete
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\Anomaly Updater.exe
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\Anomaly Updater.pdb
