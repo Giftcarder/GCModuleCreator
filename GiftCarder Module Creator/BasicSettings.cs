@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace GiftCarder_Module_Creator
 {
-    public partial class Creation : Form
+    public partial class BasicSettings : Form
     {
         //VAR
         private string UpdateURL = "https://raw.githubusercontent.com/PurityWasHere/FeedTheBot/master/VersionNumber";
@@ -14,9 +14,11 @@ namespace GiftCarder_Module_Creator
         private string LocalVersion = "0.2";
 
         //
-        public Creation()
+        public BasicSettings()
         {
             InitializeComponent();
+            BasicSettingsPanel.Visible = true;
+            BasicSettingsPanel.BringToFront();
             WebClient wc = new WebClient();
             string NewVersion = wc.DownloadString(UpdateURL).Trim();
             if (LocalVersion != NewVersion)
@@ -212,15 +214,15 @@ namespace GiftCarder_Module_Creator
                     "   for x in range(" + (CardLength.Text) + "):" + "\n" +
                     "       cardcode += str(randint(0,9))" + "\n" +
                     "   return cardcode" + "\n" +
-                    "async def pincode(pincode = " +'"'+(PinDigitBox.Text)+'"'+ "):" + "\n" +
+                    "async def pincode(pincode = " + '"' + (PinDigitBox.Text) + '"' + "):" + "\n" +
                     "   for x in range(" + (PinBox.Text) + "):" + "\n" +
                     "       pincode += str(randint(0,9))" + "\n" +
                     "   return pincode" + "\n" +
                     "#====== SETTINGS AREA ======" + "\n" + "\n" +
                     "def request():" + "\n" +
-                    "   url = " +'"'+(URLBox.Text)+'"'+ "" + "\n" +
+                    "   url = " + '"' + (URLBox.Text) + '"' + "" + "\n" +
                     "   return url" + "\n" +
-                    "async def scrapper(response):" +"\n" +
+                    "async def scrapper(response):" + "\n" +
                     "   " + Response + "\n" +
                     "   return (value)" + "\n" +
                     "def settings(cardcode, pincode, captcha, token):" + "\n" +
@@ -237,6 +239,21 @@ namespace GiftCarder_Module_Creator
         private void InfoButton_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/PurityWasHere/GCModuleCreator/wiki");
+        }
+
+        private void BasicSettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BasicSettingsPanel.BringToFront();
+        }
+
+        private void POSTSettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            POSTPanel.BringToFront();
+        }
+
+        private void ParseSettingsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ParseSettings.BringToFront();
         }
     }
 }

@@ -13,7 +13,7 @@ namespace GiftCarder_Module_Creator
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Creation());
+            Application.Run(new BasicSettings());
         }
     }
 }

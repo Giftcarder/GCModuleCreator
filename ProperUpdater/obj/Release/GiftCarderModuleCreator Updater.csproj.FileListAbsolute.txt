@@ -1,0 +1,10 @@
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\GCMC Updater.exe.config
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\GCMC Updater.exe
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\GCMC Updater.pdb
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\bin\Release\DotNetZip.xml
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\GiftCarderModuleCreator Updater.csprojAssemblyReference.cache
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\GiftCarderModuleCreator Updater.csproj.CoreCompileInputs.cache
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\GiftCarderModuleCreator Updater.csproj.Fody.CopyLocal.cache
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\GiftCarderModuleCreator Updater.csproj.CopyComplete
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\GCMC Updater.exe
+C:\Users\codys\Desktop\GCModuleCreator\ProperUpdater\obj\Release\GCMC Updater.pdb
