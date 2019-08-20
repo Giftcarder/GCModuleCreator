@@ -60,6 +60,7 @@ namespace GiftCarder_Module_Creator
             this.HeaderTOGGLE = new System.Windows.Forms.CheckBox();
             this.label9 = new System.Windows.Forms.Label();
             this.PinDigitBox = new System.Windows.Forms.TextBox();
+            this.InfoButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // CaptchaToggle
@@ -355,7 +356,7 @@ namespace GiftCarder_Module_Creator
             this.StaticToggle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.StaticToggle.Font = new System.Drawing.Font("Segoe UI Semibold", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StaticToggle.ForeColor = System.Drawing.Color.White;
-            this.StaticToggle.Location = new System.Drawing.Point(403, 107);
+            this.StaticToggle.Location = new System.Drawing.Point(396, 109);
             this.StaticToggle.Name = "StaticToggle";
             this.StaticToggle.Size = new System.Drawing.Size(83, 17);
             this.StaticToggle.TabIndex = 24;
@@ -379,9 +380,9 @@ namespace GiftCarder_Module_Creator
             // 
             this.Finish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Finish.ForeColor = System.Drawing.Color.White;
-            this.Finish.Location = new System.Drawing.Point(311, 308);
+            this.Finish.Location = new System.Drawing.Point(379, 308);
             this.Finish.Name = "Finish";
-            this.Finish.Size = new System.Drawing.Size(127, 35);
+            this.Finish.Size = new System.Drawing.Size(100, 35);
             this.Finish.TabIndex = 26;
             this.Finish.Text = "Create Module";
             this.Finish.UseVisualStyleBackColor = true;
@@ -422,12 +423,25 @@ namespace GiftCarder_Module_Creator
             this.PinDigitBox.Size = new System.Drawing.Size(43, 22);
             this.PinDigitBox.TabIndex = 29;
             // 
+            // InfoButton
+            // 
+            this.InfoButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.InfoButton.ForeColor = System.Drawing.Color.White;
+            this.InfoButton.Location = new System.Drawing.Point(3, 328);
+            this.InfoButton.Name = "InfoButton";
+            this.InfoButton.Size = new System.Drawing.Size(35, 24);
+            this.InfoButton.TabIndex = 30;
+            this.InfoButton.Text = "?";
+            this.InfoButton.UseVisualStyleBackColor = true;
+            this.InfoButton.Click += new System.EventHandler(this.InfoButton_Click);
+            // 
             // Creation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
             this.ClientSize = new System.Drawing.Size(505, 355);
+            this.Controls.Add(this.InfoButton);
             this.Controls.Add(this.PinDigitBox);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.HeaderTOGGLE);
@@ -464,7 +478,7 @@ namespace GiftCarder_Module_Creator
             this.Name = "Creation";
             this.ShowIcon = false;
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
-            this.Text = "GiftCarder Module Creator V1";
+            this.Text = "GiftCarder Module Creator V0.2";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -503,6 +517,7 @@ namespace GiftCarder_Module_Creator
         private System.Windows.Forms.CheckBox HeaderTOGGLE;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox PinDigitBox;
+        private System.Windows.Forms.Button InfoButton;
     }
 }
 

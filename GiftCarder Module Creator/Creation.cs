@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Windows.Forms;
@@ -10,7 +11,7 @@ namespace GiftCarder_Module_Creator
         //VAR
         private string UpdateURL = "https://raw.githubusercontent.com/PurityWasHere/FeedTheBot/master/VersionNumber";
 
-        private string LocalVersion = "1.0";
+        private string LocalVersion = "0.2";
 
         //
         public Creation()
@@ -83,6 +84,12 @@ namespace GiftCarder_Module_Creator
             String CaptchaName = "";
             String PinName = "";
             String Headers = "";
+            String Response = "value = " + (ScrapeBox.Text);
+            String IMPORTS = ("#======================= IMPORT AREA =======================" + "\n" +
+                              "from random import randint" + "\n" +
+                              "#===========================================================") + "\n" + "\n"
+;
+
             ///
 
             //Logic for VARS
@@ -140,7 +147,7 @@ namespace GiftCarder_Module_Creator
                 CaptchaName = "No";
             }
 
-            if (StaticToggle.Checked == true)
+            if (StaticToggle.Checked != true)
             {
                 ValidBOOL = "Yes";
             }
@@ -186,6 +193,7 @@ namespace GiftCarder_Module_Creator
             //
 
             FILL = ("#Module Generated Using Pure's Module Creator" + "\n" +
+                    IMPORTS + "\n" +
                     "#====== GENERAL SETTINGS ======" + "\n" +
                     "name = " + '"' + NameFILL + '"' + "\n" +
                     "method = " + "'" + METHOD + "'" + "\n" +
@@ -198,24 +206,37 @@ namespace GiftCarder_Module_Creator
                     "error = " + '[' + ErrorFILL + ']' + "\n" +
                     "retries = " + RetriesFILL + "\n" +
                     "timeout = " + TimeoutFILL + "\n" +
-                    "headers = " + Headers + "\n" +
+                    "headers = " + Headers + "\n" + "\n" +
                     "#====== GENERATING AREA ======" + "\n" +
                     "async def cardcode(cardcode = pattern):" + "\n" +
-                    "for x in range(" + (CardLength.Text) + "):" + "\n" +
-                    "cardcode += str(randint(0,9))" + "\n" +
-                    " return cardcode" + "\n" +
-                    "async def pincode(pincode = " + (PinDigitBox.Text) + "):" + "\n" +
-                    "for x in range(" + (PinBox.Text) + "):" + "\n" +
-                    "pincode += str(randint(0,9))" + "\n" +
-                    "return pincode" + "\n" +
-                    "#====== SETTINGS AREA ======" + "\n" +
+                    "   for x in range(" + (CardLength.Text) + "):" + "\n" +
+                    "       cardcode += str(randint(0,9))" + "\n" +
+                    "   return cardcode" + "\n" +
+                    "async def pincode(pincode = " +'"'+(PinDigitBox.Text)+'"'+ "):" + "\n" +
+                    "   for x in range(" + (PinBox.Text) + "):" + "\n" +
+                    "       pincode += str(randint(0,9))" + "\n" +
+                    "   return pincode" + "\n" +
+                    "#====== SETTINGS AREA ======" + "\n" + "\n" +
                     "def request():" + "\n" +
-                    "url = " + (URLBox.Text) + "" + "\n" +
-                    "return url" + "\n"
+                    "   url = " +'"'+(URLBox.Text)+'"'+ "" + "\n" +
+                    "   return url" + "\n" +
+                    "async def scrapper(response):" +"\n" +
+                    "   " + Response + "\n" +
+                    "   return (value)" + "\n" +
+                    "def settings(cardcode, pincode, captcha, token):" + "\n" +
+                    "   data = {'cardNumber':cardcode}" + "\n" +
+                    "   return (data)" + "\n" +
+                    "#==========END OF MODULE==========="
+
                     );
 
             //Writes the File
             File.WriteAllText(NameEXT + ".py", FILL);
+        }
+
+        private void InfoButton_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/PurityWasHere/GCModuleCreator/wiki");
         }
     }
 }
