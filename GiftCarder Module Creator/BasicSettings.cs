@@ -199,7 +199,7 @@ namespace GiftCarder_Module_Creator
                     "#====== GENERAL SETTINGS ======" + "\n" +
                     "name = " + '"' + NameFILL + '"' + "\n" +
                     "method = " + "'" + METHOD + "'" + "\n" +
-                    "pattern = " + '"' + PatternFILL + '"' + "\n" +
+                    "valid = " + '"' + PatternFILL + '"' + "\n" +
                     "pin = " + PinName + "\n" +
                     "cookie = " + CookieFILL + "\n" +
                     "token = " + TokenFILL + "\n" +
@@ -210,8 +210,8 @@ namespace GiftCarder_Module_Creator
                     "timeout = " + TimeoutFILL + "\n" +
                     "headers = " + Headers + "\n" + "\n" +
                     "#====== GENERATING AREA ======" + "\n" +
-                    "async def cardcode(cardcode = pattern):" + "\n" +
-                    "   for x in range(" + (CardLength.Text) + "):" + "\n" +
+                    "async def cardcode(cardcode, n):" + "\n" +
+                    "   for x in range(n):" + "\n" +
                     "       cardcode += str(randint(0,9))" + "\n" +
                     "   return cardcode" + "\n" +
                     "async def pincode(pincode = " + '"' + (PinDigitBox.Text) + '"' + "):" + "\n" +
